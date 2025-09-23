@@ -12,7 +12,7 @@ This project is for UofT CSC490 Capstone.
 
 
 
-TODO list:
+TODO list DELETE LATER:
 
 Group name
 Team member names
@@ -45,21 +45,23 @@ A link to your source code repository
 
 
 
-Group Name: **TODO Group Name**
+Group Name: **UofT CSC490 LLVIP**
 - [Amr Alomari](https://github.com/T3CHW1ZRD)
-  Machine Learning 4th@UofT
-
-  Machine Vision Engineer (Student)
+  Machine Learning 4th Y Undergrad@UofT
+  Role / Responsibility
+  - Machine Vision Engineer (Student)
 
 - [Charles Cheung](https://github.com/charlescheung22)
-  Machine Learning 4th@UofT
+  Machine Learning 4th Y Undergrad@UofT
+  Role / Responsibility
+  - Machine Vision Engineer (Student)
 
-  Machine Vision Engineer (Student)
 
-
-The goal of our project is to detect objects ("pedestrians") using a combination of Visible and Infrared (VIR) light. 
+The goal of our project is perform object detection (on pedestrians), given pairs of pictures, in Visible and Infrared (VIR) light. 
 - The dataset to be used is [LLVIP](https://github.com/bupt-ai-cz/LLVIP).
-- System accuracy will be tested by splitting into the classing Train Verify Test triplets. Recall, FPS can also be tested. Mean Average Precision (mAP), Average Precision[small] (AP_small) can be attempted if there is additional time.
+- System accuracy can be tested by splitting into the classing Train Verify Test data splits or just Train Test data splits. 
+  
+  $Recall = \frac{\text{True Positive}}{\text{True Positive} + \text{False Negative}}$ can also be tested. Mean Average Precision (mAP), Average Precision[small] (AP_small) can be attempted if there is additional time as these aren't vital.
 
 Reference:
 ```
@@ -71,20 +73,23 @@ Reference:
   year={2021}
 }
 ```
-or
-
-```
-@misc{https://doi.org/10.48550/arxiv.2108.10831,
-  doi = {10.48550/ARXIV.2108.10831}, 
-  url = {https://arxiv.org/abs/2108.10831},
-  author = {Jia, Xinyu and Zhu, Chuang and Li, Minzhen and Tang, Wenqi and Liu, Shengjie and Zhou, Wenli}, 
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {LLVIP: A Visible-infrared Paired Dataset for Low-light Vision},
-  publisher = {arXiv},
-  year = {2021},
-  copyright = {arXiv.org perpetual, non-exclusive license}
-}
-```
 
 
-TODO
+TODO REASONS
+
+- Charles has accessed the dataset.
+- Both are setting up source code.
+- In general, TODO HERE
+- Please find the repository at [this location](https://github.com/charlescheung22/LLVIP).
+
+
+
+
+
+
+
+General TODO List:
+- Get a Yolo v8 up and running
+
+
+
